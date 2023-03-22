@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>코딩네컷</title>
+    <title> 따따네컷</title>
 		<style>
       /* 이서윤체 폰트 적용을 위한 코드 */
       @font-face {
@@ -22,9 +22,10 @@
 	justify-content: center;
 	background-image: url("./boysplanet.jpg_large");
 }
+
     .container {
         width: 390px;
-        background-color: palevioletred;
+        background: linear-gradient(to right, #fc8dbb, #651a6e);
         height: 100%;
     }
     .photos {
@@ -32,7 +33,7 @@
         align-items: center;
     }
     .photo-frame {
-        background-color: azure;
+        background-color: linear-gradient(45deg, #fbd5e5, #7d1f8a);
         margin: 15px 20px;
         height: 200px;
         background-size: cover;
@@ -48,6 +49,7 @@
         font-size: 25px;
 	font-weight: 900;
 	color: white;
+    text-align: center;
     }
     .f-date {
 	font-size: 15px;
@@ -59,7 +61,7 @@
     }
     #img2 {
         background-image: url(./gyu.png);
-    }
+        }
     #img3 {
         background-image: url(./jun.png);
     }
@@ -70,7 +72,7 @@
     .photo-description {
 	/* 배경은 검게, 글자는 흰 색으로 */
 	color: white;
-	background-color: black;
+	background-color: #7d1f8a;
 
     font-size: 12px;
 	/* 가로 너비는 내부 콘텐츠에 딱 맞게! */
@@ -133,7 +135,7 @@ function hideText(number) {
 // 클릭 기능
 // 1. 선택된 사진의 숫자를 가진 텍스트를 alert 형태로 출력해줌
 function alertText(number) {
-	alert(`${number}번째 추억이에요! 눌러주셔서 감사합니다 :)`);
+	alert(`난 너라서 빛나 빛나 빛나 :)`);
 }        
         </script>
 </head>
@@ -145,7 +147,7 @@ function alertText(number) {
 	onmouseout="hideText(1)"
 	onclick="alertText(1)"> 
                 <span id="desc1" class="photo-description">
-                    i want you, l love you!
+                    i want you, i love you!
                 </span> </div>
             <div id="img2" class="photo-frame"onmouseover="showText(2)"
             onmouseout="hideText(2)"
@@ -171,7 +173,7 @@ function alertText(number) {
                 </span> </div>
         </div>
         <div class="footer"> 
-            <p class="f-title"> I love you, I want you!</p>
+            <p class="f-title"> 정다은 스타 크리에이터님 </br> 행복하세요!</p>
             <p class="f-date"> 2023.03</p>
         </div>
     </div>
